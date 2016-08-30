@@ -6,6 +6,8 @@ An asynchronous domain name resolve module for nginx upstream
 Installation:
 
 	./configure --add-module=/path/to/this/directory
+	or
+	./configure --add-dynamic-module=/path/to/this/directory
 	make
 	make install
 
